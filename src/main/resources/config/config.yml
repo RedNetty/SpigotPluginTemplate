@@ -1,0 +1,15 @@
+# PluginTemplate Configuration
+# Generated automatically - modify as needed
+
+plugin:
+  debug: false
+  auto-update: true
+
+database:
+  type: sqlite
+  file: database.db
+
+messages:
+  prefix: "^<gradient:#ff6b6b:#4ecdc4^>[PluginTemplate]^</gradient^>"
+  reload-success: "<green>Configuration reloaded successfully</green>"
+  no-permission: "<red>You don't have permission to do that</red>"

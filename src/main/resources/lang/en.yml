@@ -1,0 +1,13 @@
+# English language file for PluginTemplate
+
+prefix: "^<gradient:#ff6b6b:#4ecdc4^>[PluginTemplate]^</gradient^>"
+
+commands:
+  reload:
+    success: "<green>Configuration reloaded successfully</green>"
+    error: "<red>Failed to reload configuration</red>"
+
+errors:
+  no-permission: "<red>You don't have permission to do that</red>"
+  unknown-command: "<red>Unknown command Use /plugintemplate help</red>"
+  player-only: "<red>This command can only be used by players</red>"
